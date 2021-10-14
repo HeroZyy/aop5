@@ -22,7 +22,7 @@ public class LogAspect {
     @Pointcut("execution(Integer org.javaboy.aop.service.MyCalculatorImpl.*(..))")
     public void pointcut(){
 
-    }
+      }
 
     /**
      * 前置通知
